@@ -8,7 +8,9 @@ demo：https://yong-s.gitee.io/skm/
 
 ## 2021-2-17
 
-add favicon
+1、add favicon
+
+2、fix qrcode api
 
 ## 2020-10-26
 
