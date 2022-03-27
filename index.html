@@ -244,7 +244,7 @@
         <div class="code-area"><img id="wechat-url"
                 src="data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAYAAAAfFcSJAAAADUlEQVQImWNgYGBgAAAABQABh6FO1AAAAABJRU5ErkJggg==">
         </div>
-        <div class="code-footer">长按以上二维码向我付款</div>
+        <div class="code-footer">转发给朋友/收藏 以上二维码后 长按分享/收藏的二维码向我付款</div>
     </div>
     <script>if (navigator.userAgent.match(/Alipay/i)) { window.location.href = setting.aliUrl } else if(navigator.userAgent.match(/UnionPay/i)) { window.location.href = setting.unionUrl } else if (navigator.userAgent.match(/MicroMessenger\//i)) { document.getElementById("wechat-url").src = setting.qrcodeApi + urlEncode(setting.wechatUrl); document.getElementById("code-wechat").style.display = "block" } else if (navigator.userAgent.match(/QQ\//i)) { document.getElementById("qq-url").src = setting.qrcodeApi + urlEncode(setting.qqUrl); document.getElementById("code-qq").style.display = "block" } else { document.getElementById("page-url").src = setting.qrcodeApi + urlEncode(window.location.href); document.getElementById("code-all").style.display = "block" } function urlEncode(String) { return encodeURIComponent(String).replace(/'/g, "%27").replace(/"/g, "%22") }</script>
 </body>
