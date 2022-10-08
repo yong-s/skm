@@ -5,7 +5,9 @@
 demo：https://skm.yongs.ml/
 
 ## 2022-10-08
-1、fix qrapi
+1、fix qrcode api https://api.pwmqr.com/qrcode/create/?url=
+备用：https://devtool.tech/api/qrcode?data=https://skm.zsan.ml&width=100
+
 ## 2022-3-27
 1、更换微信提示语，不支持长按识别，需要先转发或保存二维码后长按识别
 
