@@ -2,7 +2,9 @@
 
 三合一收款码
 
-demo：https://skm.yongs.ml/
+~~demo：https://skm.zsan.cf/~~
+## 2023-11-19
+由于微信的限制，没法用了👋
 
 ## 2022-10-08
 1、fix qrcode api https://api.pwmqr.com/qrcode/create/?url=
